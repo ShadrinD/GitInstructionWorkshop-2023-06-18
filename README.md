@@ -10,7 +10,29 @@
 8. Базовая работа с ветками в git.
 9. Что такое удаленный репозиторий и для чего он нужен
 10. Базовая работа с удаленными репозиториями GitHub
-11. Как строится и для чего нужна совместная работа в системах контроля версий
-12. Инструкция по созданию pull request
-13. Книги и полезные ссылки по изучению git.
-14. Альтернативные системы контроля версий.
+1. Создать аккаунт на GitHub.com
+2. Создать локальный репозиторий
+3. Связать локальный и удаленный репозитории. 
+(GitHub подскажет как это сделать
+…or create a new repository on the command line
+echo "# Test2" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ShadrinD/Test2.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/ShadrinD/Test2.git
+git branch -M main
+git push -u origin main)
+
+
+4. Отправить (push) локальный репозиторий в удаленный на GitHub (возможно нужна будет авторизация)
+5. провести изменения можно и сразу в удаленном репозитории
+6. Скачать (pull) актуальное состояние 
+12. Как строится и для чего нужна совместная работа в системах контроля версий
+13. Инструкция по созданию pull request
+14. Книги и полезные ссылки по изучению git.
+15. Альтернативные системы контроля версий.
